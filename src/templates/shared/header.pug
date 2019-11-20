@@ -1,0 +1,46 @@
+doctype html
+html(lang='ru')
+  head
+    title Некоммерческое партнерство имени Юрия Заполя
+    meta(charset='UTF-8')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    link(rel='shortcut icon', href='favicon.ico', type='image/x-icon')
+    link(href="https://fonts.googleapis.com/css?family=Roboto", rel="stylesheet")
+  body
+    header
+      nav.navbar.navbar-expand-lg
+        .container
+          a(href='index.html').navbar-brand
+            img(src='img/logo.png')
+          button.hamburger.hamburger--collapse.navbar-toggler(type='button', data-toggle="collapse", data-target="#navbar")
+            span.hamburger-box
+            span.hamburger-inner
+          #navbar.collapse.navbar-collapse
+            ul.navbar-nav
+              li.nav-item
+                a.nav-link.active(href="") Главная
+              li.nav-item
+                a.nav-link(href="") Новости
+              li.nav-item
+                a.nav-link(href="") Учредители
+              li.nav-item
+                a.nav-link(href="") Конкурсы
+              li.nav-item
+                a.nav-link(href="") О фонде
+              li.nav-item
+                a.nav-link(href="") Партнёры
+              li.nav-item.ml-auto
+                a.nav-link(href="") Контакты
+      section.hero
+        div
+          a.btn(href="") ВХОД
+          a.btn.btn-primary.ml-3(href="") РЕГИСТРАЦИЯ
+        .hero-middle
+          img(src="img/zapol.png", alt="")          
+          h1 Некоммерческое партнерство имени 
+            span Юрия Заполя
+        div
+          a.btn.btn-primary(href="") СТАТЬ ИНВЕСТОРОМ
+

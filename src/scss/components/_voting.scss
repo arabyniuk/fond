@@ -1,0 +1,27 @@
+.voting {
+  border: 1px solid #d3ceed;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2f5f8;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  &-name {
+    font: 18px/34px $font-geometria-bold;
+    color: #4e3ab6;
+  }
+  &-winner {
+    font: 14px/24px $font-geometria-medium;
+  }
+  &-place {
+    font: 14px/24px $font-geometria-light;
+  }
+}

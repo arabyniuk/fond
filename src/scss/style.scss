@@ -1,0 +1,28 @@
+// Vendor
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~hamburgers/_sass/hamburgers/hamburgers";
+
+/*
+@import '~animate.css/animate.css';
+@import '~owl.carousel/dist/assets/owl.carousel.css';
+@import '~owl.carousel/dist/assets/owl.theme.default.css';
+@import '~select2/src/scss/core';
+@import '~starrr/dist/starrr.css';
+@import '~hamburgers/dist/hamburgers.css'; 
+*/
+
+// Core
+@import "core/core";
+
+// Layout
+@import "layout/layout";
+
+// Pages
+@import "pages/pages";
+
+// Component
+@import "components/components";
